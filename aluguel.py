@@ -21,7 +21,7 @@ st.title('aluguel de carro')
 st.write('seja bem vindo(a)')
 
 st.write(f'você selcionou: {carro}')
-st.image(f'{carro}.png')
+st.image(f'{carro.upper()}.png')
 
 dias=st.text_input('informe a quantidade de dias')
 km=st.text_input('informe a quantidade de quilómetros rodados')
